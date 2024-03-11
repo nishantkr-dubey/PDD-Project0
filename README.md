@@ -122,3 +122,26 @@ section#services {
 section#contact {
     background-color: #f2f2f2;
 }
+
+
+
+
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $email = $_POST["email"];
+    $message = $_POST["message"];
+
+    // Here you can add code to send the email or save the message to a database
+    // For example, sending an email using the mail() function:
+    $to = "your_email@example.com";
+    $subject = "Message from $name";
+    $body = "Name: $name\nEmail: $email\nMessage: $message";
+    mail($to, $subject, $body);
+
+    // Redirect to a thank you page
+    header("Location: thank_you.html");
+    exit;
+}
+?>
