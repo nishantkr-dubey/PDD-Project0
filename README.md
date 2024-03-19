@@ -5,44 +5,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthcare Website</title>
+    <title>LAW AND JUSTICE</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <header>
-        <h1>Healthcare Website</h1>
+        <h1>Law And Justice</h1>
         <!-- Navigation links -->
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#procedure">procedure</a></li>
+                <li><a href="#documentation">documentation</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="about">
         <h2>About Us</h2>
-        <p>Place your information about your healthcare services here.</p>
+        <p>DETAILS ABOUT CASE.</p>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
+    <section id="PROCEDURE">
+        <h2>DESCRIBING THE CASES</h2>
         <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
+            <li>CASE DETAILS 1</li>
+            <li>CASE DETAILS 2</li>
+            <li>CASE DETAILS 3</li>
             <!-- Add more services as needed -->
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Include contact information here.</p>
+        <p>CLINT DETAILS.</p>
     </section>
 
     <footer>
-        <p>&copy; 2024 Healthcare Website</p>
+        <p>&copy; 2024 LAWS</p>
     </footer>
 </body>
 </html>
